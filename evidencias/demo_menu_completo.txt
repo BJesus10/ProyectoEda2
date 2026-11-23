@@ -1,0 +1,396 @@
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+Archivo de vuelos [vuelos.csv]: Archivo de reservas [reservas_masivo.csv]: Vuelos cargados: 50
+Reservas leidas: 10000 (rechazadas: 0)
+Insertadas en la hash : 10000
+Insertadas en el arbol: 10000
+Insertadas en heaps   : 30  (listas de espera)
+   Heap del vuelo LA139: 8 pasajeros
+   Heap del vuelo H2321: 7 pasajeros
+   Heap del vuelo H2477: 6 pasajeros
+   Heap del vuelo H2633: 9 pasajeros
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva: RES-000001 | 15382401 | Jorge Reyes | H2516 | Lima->Tacna | 2027-02-26 12:10 | Economica | Regular | 312.56 | CheckIn
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva: No existe una reserva con el ID RES-999999
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+Cuantas reservas mostrar [20]: 1. RES-000038 | 15612798 | Julia Mendoza | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Regular | 237.96 | Pendiente
+2. RES-000083 | 23276167 | Rosa Cruz | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Frecuente | 308.02 | Confirmada
+3. RES-000115 | 20975804 | Diego Quispe | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Regular | 126.87 | CheckIn
+4. RES-000176 | 22825841 | Lucia Vega | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Frecuente | 236.21 | Confirmada
+5. RES-000182 | 26530493 | Paula Rojas | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Frecuente | 237.29 | Pendiente
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+Fecha inicial (AAAA-MM-DD): Fecha final   (AAAA-MM-DD): Reservas encontradas entre 2026-12-01 y 2026-12-03: 350
+Muestra (primeras 10):
+  RES-000038 | 15612798 | Julia Mendoza | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Regular | 237.96 | Pendiente
+  RES-000083 | 23276167 | Rosa Cruz | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Frecuente | 308.02 | Confirmada
+  RES-000115 | 20975804 | Diego Quispe | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Regular | 126.87 | CheckIn
+  RES-000176 | 22825841 | Lucia Vega | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Frecuente | 236.21 | Confirmada
+  RES-000182 | 26530493 | Paula Rojas | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Frecuente | 237.29 | Pendiente
+  RES-000310 | 17151547 | Miguel Soto | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Premium | 329.52 | Confirmada
+  RES-000356 | 17025746 | Jorge Reyes | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Premium | Premium | 486.12 | Cancelada
+  RES-000377 | 19331880 | Maria Salazar | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Premium | 171.22 | Cancelada
+  RES-000408 | 22753649 | Raul Reyes | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Premium | Regular | 347.29 | CheckIn
+  RES-000459 | 18035005 | Victor Chavez | H2672 | Lima->Trujillo | 2026-12-02 09:20 | Economica | Regular | 212.17 | Confirmada
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+Codigo de vuelo: Vuelo H2321 Juliaca->Lima 2027-01-04 15:30 | asientos 160/160 | en espera: 7
+Siguiente a atender: RES-003343 | 20889603 | Lucia Huaman | H2321 | Juliaca->Lima | 2027-01-04 15:30 | Economica | Premium | 249.74 | EnEspera
+Lista completa en orden de prioridad:
+  1. RES-003343 | Lucia Huaman | Premium | llegada #6
+  2. RES-007006 | Maria Vega | Premium | llegada #21
+  3. RES-001333 | Luis Paredes | Frecuente | llegada #4
+  4. RES-008266 | Lucia Ortiz | Frecuente | llegada #25
+  5. RES-003743 | Marta Flores | Regular | llegada #8
+  6. RES-006969 | Jorge Vargas | Regular | llegada #20
+  7. RES-009890 | Hugo Vega | Regular | llegada #30
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva a cancelar: Reserva cancelada; se libero un asiento.
+Promovido desde la lista de espera:
+  RES-003343 | 20889603 | Lucia Huaman | H2321 | Juliaca->Lima | 2027-01-04 15:30 | Economica | Premium | 249.74 | Confirmada
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+Codigo de vuelo: Vuelo H2321 Juliaca->Lima 2027-01-04 15:30 | asientos 160/160 | en espera: 6
+Siguiente a atender: RES-007006 | 12043684 | Maria Vega | H2321 | Juliaca->Lima | 2027-01-04 15:30 | Premium | Premium | 349.45 | EnEspera
+Lista completa en orden de prioridad:
+  1. RES-007006 | Maria Vega | Premium | llegada #21
+  2. RES-001333 | Luis Paredes | Frecuente | llegada #4
+  3. RES-008266 | Lucia Ortiz | Frecuente | llegada #25
+  4. RES-003743 | Marta Flores | Regular | llegada #8
+  5. RES-006969 | Jorge Vargas | Regular | llegada #20
+  6. RES-009890 | Hugo Vega | Regular | llegada #30
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva: DNI: Pasajero: Codigo de vuelo: Clase (1=Economica, 2=Premium, 3=Ejecutiva): Categoria (1=Regular, 2=Frecuente, 3=Premium): Precio: Estado si hay asiento (1=Confirmada, 2=Pendiente): El vuelo esta lleno: la reserva quedo EnEspera (llegada #31).
+NUE-000001 | 70000001 | Ana Prueba | LA139 | Arequipa->Lima | 2027-02-26 21:40 | Economica | Premium | 450.00 | EnEspera
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva: Estado actual: Pendiente
+Nuevo estado (1=Confirmada, 2=CheckIn): Estado actualizado a Confirmada.
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva: Estado actual: Confirmada
+Nuevo estado (1=Confirmada, 2=CheckIn): Transicion no permitida (solo Pendiente->Confirmada y Confirmada->CheckIn).
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva a cancelar: La reserva ya estaba cancelada.
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva a eliminar fisicamente: Reserva eliminada de la hash y del arbol.
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva: No existe una reserva con el ID RES-000163
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+ID de la reserva a eliminar fisicamente: Solo se pueden eliminar reservas Canceladas.
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+Total de reservas: 10000
+Ingresos (Confirmada + CheckIn): 2233595.98
+Precio promedio: 324.57
+Por destino: Trujillo=543 Lima=4913 Piura=614 Cusco=620 Arequipa=637 Tacna=452 Juliaca=438 Iquitos=565 Pucallpa=360 Chiclayo=422 Cajamarca=436
+Por clase: Economica=7008 Premium=1986 Ejecutiva=1006
+Por estado: Confirmada=5469 Pendiente=2322 EnEspera=30 CheckIn=1379 Cancelada=800
+Mayor precio: RES-009180 | 23105701 | Julia Vega | LA607 | Cajamarca->Lima | 2027-02-01 09:20 | Ejecutiva | Regular | 1099.23 | Confirmada
+Menor precio: RES-001143 | 20194913 | Jorge Flores | H2711 | Piura->Lima | 2027-02-21 21:40 | Economica | Regular | 120.04 | Cancelada
+Vuelo con mas pasajeros en espera: LA139 (9)
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: 
+Reservas en la hash: 10000 | en el arbol: 10000
+Factor de carga de la hash: 1.00 (tabla de 10007)
+Cadena mas larga de la hash: 53
+Altura del AVL: 15 (valido: si)
+
+------------------------------------------------------------
+ SISTEMA DE RESERVAS AEREAS
+------------------------------------------------------------
+ 1. Carga masiva de vuelos y reservas
+ 2. Registrar nueva reserva
+ 3. Buscar reserva por ID
+ 4. Listado cronologico
+ 5. Consulta por rango de fechas
+ 6. Actualizar estado de una reserva
+ 7. Cancelar reserva
+ 8. Eliminar fisicamente una reserva cancelada
+ 9. Ver lista de espera de un vuelo
+10. Estadisticas generales
+11. Metricas de las estructuras
+ 0. Salir
+------------------------------------------------------------
+Opcion: Hasta luego.

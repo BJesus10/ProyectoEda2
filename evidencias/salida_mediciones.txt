@@ -1,0 +1,22 @@
+Mediciones con reservas_masivo.csv (mediana de 3 ejecuciones)
+
+Operacion                                                 Datos     Reps    Tiempo (mediana)
+----------------------------------------------------------------------------------------------------
+Carga masiva (leer archivos + hash + arbol + heaps)       10000     1       9.011 ms
+Busqueda por ID (hash)                                    10000     1000    0.038 us
+Busqueda secuencial del mismo ID                          10000     1000    18.214 us
+Insercion individual (hash + arbol + heap si corresponde) 10000     100     0.966 us
+Consulta ordenada (primeras 50)                           10000     100     0.206 us
+Consulta por rango (un mes; 3731 resultados)              10000     100     46.597 us
+Consulta por rango (una semana; 751 resultados)           10000     100     9.341 us
+Consulta por rango (sin resultados)                       10000     100     0.088 us
+Actualizacion de estado (por reserva)                     10        10      0.088 us
+Cancelacion con promocion desde el heap (por reserva)     10        10      0.221 us
+Eliminacion fisica (arbol + hash, por reserva)            10        10      0.564 us
+
+Metricas de las estructuras
+----------------------------------------------------------------------------------------------------
+Factor de carga de la hash (10000 / 10007)                0.9993
+Longitud de la cadena mas larga de la hash                53
+Altura del AVL con 10000 reservas                         15  (valido: si)
+Altura del AVL tras 1000 inserciones con fechas crecientes    10  (valido: si)

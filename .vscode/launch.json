@@ -1,0 +1,20 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Ejecutar Sistema de Reservas",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/reservas.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/datos",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "preLaunchTask": "Compilar Sistema de Reservas"
+        }
+    ]
+}

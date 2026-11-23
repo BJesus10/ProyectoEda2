@@ -1,0 +1,29 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar Sistema de Reservas",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++11",
+                "-O0",
+                "-g",
+                "ArbolAVL.cpp",
+                "SistemaReservas.cpp",
+                "main.cpp",
+                "-o",
+                "reservas.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
